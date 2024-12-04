@@ -54,14 +54,15 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 .Location-synced {
   z-index: 3;
-  border-color: #e6007a;
+  border-color: #7567CE;
 }
 
 .Location-synced .Location-ping {
   border: 1px solid #fff;
   border-radius: 30px;
   display: block;
-  animation: ping 1s forwards;
+  animation: ping 350ms forwards;
+  animation-iteration-count: infinite;
 }
 
 .Location:hover {
