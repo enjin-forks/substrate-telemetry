@@ -1,6 +1,7 @@
 name: Publish and deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - enjin-theme
