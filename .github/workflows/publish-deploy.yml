@@ -12,8 +12,8 @@ permissions:
 
 env:
   AWS_REGION: us-east-2
-  ECR_REPOSITORY_BACKEND: your-backend-repo-name
-  ECR_REPOSITORY_FRONTEND: your-frontend-repo-name
+  ECR_REPOSITORY_BACKEND: enjin-telemetry-backend
+  ECR_REPOSITORY_FRONTEND: enjin-telemetry-frontend
 
 jobs:
   set-variables:
